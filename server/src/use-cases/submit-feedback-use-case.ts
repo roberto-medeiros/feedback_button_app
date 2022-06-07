@@ -42,7 +42,7 @@ export class SubmitFeedbackUseCase {
         `<p>Comentário: ${comment}</p>`,
         screenshot ? `<img src="${screenshot}" />` : ``,
         `</div>`
-      ].join('/n')
+      ].join('\n')
     })
   }
 }
